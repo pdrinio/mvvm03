@@ -25,6 +25,8 @@ namespace mvvm03
         public MainPage()
         {
             this.InitializeComponent();
+
+            DataContext = new MainPageViewModel();
         }
     }
 }
